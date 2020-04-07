@@ -8,5 +8,5 @@ Additionally the model has been trained only on one person.
 data-generator.py can be used to generate your own traning data
 
 
-Data Generator:
+# Data Generator:
 Remember to modify coordinate values before running the program (Images generated will have these coordinates in their file name)
