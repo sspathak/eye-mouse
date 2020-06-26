@@ -1,11 +1,13 @@
 # eye-mouse
 Control your PC's mouse by just looking at the screen! (proof of concept)
-This program uses machine learning to predict the screen coordinates of where you are looking
+This program uses multi-class image classifier to predict which part of the screen the user is looking at.
+The output is visualized using matplotlib 
 
 The model included only works for PCs with cameras at the top of the screen
 Additionally the model has been trained only on one person.
 
-data-generator.py can be used to generate your own traning data
+use data-generator.py to generate your own data!
+Note: you will have to specify the class before running the generator
 
 
 # Data Generator:
